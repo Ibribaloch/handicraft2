@@ -1385,6 +1385,7 @@ figure figcaption p {
 }
 .mentioned-img img {
   height: 100px;  
+  cursor: url(images/cursor2.png), auto;
 }
 @media screen and (max-width: 1220px) {
   .mentioned-img img {
@@ -1443,8 +1444,8 @@ figure figcaption p {
   display: flex;
   justify-content: center;
   align-items: center;
-   gap: 10px;
-     padding: 5px;
+  gap: 10px;
+  padding: 5px;
 }
 .star-1 {
   height: 100px;
