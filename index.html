@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Handicrafts || ibri_baloch</title>
+    <link rel="stylesheet" href="style.css" />
+        <!--favicon-->
+    <link href="logo - Copy.png" rel="icon">
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!-- BOOTSTRAP CDN Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <p id="off">Sign up & get 10% Off on your first purchase</p>
+    <nav>
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="#"><img src="logo.png" height="75" /></a>
+        </div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name"><img src="logo.png" height="60" /></span>
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="links">
+            <li><a href="index.html#about">ABOUT US</a></li>
+            <li>
+              <a href="index.html#--collection">CRAFTS</a>
+              <i class="bx bxs-chevron-down js-arrow arrow"></i>
+              <ul class="js-sub-menu sub-menu">
+                <li><a href="products.html#div8">JEWELLERY</a></li>
+                <li><a href="products.html#jewelary">CLOTHINGS</a></li>
+                <li><a href="products.html#bags">HOME DECOR</a></li>
+                <li><a href="products.html#clothings">PLANTERS</a></li>
+              </ul>
+            </li>
+            <li><a href="products.html#galary">FAQs</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="search-box">
+          <i class="bx bx-search"></i>
+          <div class="input-box">
+            <input list="Handicrafts" placeholder="Search...">
+            <datalist id="Handicrafts">
+<option value="Pottery">
+<option value="Embroidery">
+<option value="Wood Carving">
+<option value="Metalwork">
+<option value="Basket Weaving">
+<option value="Ceramics">
+<option value="Quilting">
+<option value="Knitting">
+<option value="Crocheting">
+<option value="Macramé">
+<option value="Leatherworking">
+<option value="Glassblowing">
+<option value="Calligraphy">
+<option value="Furniture ">
+<option value="Paper Crafts">
+<option value="Weaving">
+<option value="Soap ">
+<option value="Candle ">
+<option value="Jewelry ">
+<option value="Sculpture">
+<option value="Feltmaking">
+<option value="Tapestry">
+<option value="Doll ">
+<option value="Collage">
+<option value="Patchwork">
+<option value="Beading">
+<option value="Felting">
+<option value="Lace ">
+<option value="Pottery Painting">
+<option value="Origami">
+<option value="Metal Casting">
+<option value="Woodworking">
+<option value="Basketry">
+<option value="Mosaic">
+<option value="Pyrography (Wood Burning)">
+<option value="Model Making">
+<option value="Handmade Books">
+<option value="Marbling">
+<option value="Batik">
+<option value="String Art">
+<option value="Kite Making">
+<option value="Wickerwork">
+<option value="Decoupage">
+<option value="Needle Felting">
+<option value="Basket ">
+<option value="Rug ">
+<option value="clothing ">
+<option value="home decor">
+<option value="planters">
+<option value="Spinning (Yarn)">
+</datalist>
+          </div>
+          <img id="cartIcon" style="margin-left: 50px; height: 30px; margin-top: 16%;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAnhJREFUWEftlztoVUEQhr8EtUgRBCMIapAYiSg2ioIighYSJCAEFCSVFr6xs/ARiCSQYKGgKGhhUklQFCwsEkgwhSAKaaKo4AMLH2iniKJiPD/MkfXm3nPO7jkxt8h09975Z787szuzW0OVWU2V8TALlFaR0gx1OYJvwCjwKC1Ikb+XAk2WCd4P7Cty0aRYWYCk3wMM/g+opJKtA9oM4j6weSaA3DUXAW+BWvtyDfB4uqHSjv0NYJdBXAKOzjTQFmDMID4D5wsG+goMAJ/iuGkZkp/KtLpgEDec2soGH6BDwOVpBHoTZWmZD1Ad8B6oN9FtYCIn4F6g0WL0Aid9gOR70dnQN4HdOYDmAx+BuRajCXjtC7QceGGiX8BS4EMg1GFAJ1b2ANjoxsmyqWP/EWCbfdDMOxMI9BBYb9qDwJVQoHbglomVncXAb0+olcBT03wHGgAd/b/mkyF1bHVudXCZ9pH2k4+djQCOm0CzUTPyH/MBkvA00G0R7kVNc6sHjf6QMrvQNK3R/hnKC7TAgs6xQM3Ay4xQO6K9c9d83wFLgCnXHd8MKd51J9VqmEcyArlzsQ84UU4XArQJ0HVE9iVqmOcyAp0C4syucNpIrj0Ui58AqzKClLpN6T2uQ0iGpNfpUOlCrCNJGwoUQ7V4EmkGxr2srDQPkCdLNvc8QGr5mtqvgGPAcIUltwMXAA1RvWAOJKGFAgnkmhP4efQq0VgoZ88At7R6Ugms0JK5HVuBfwLzKqzxw7lqyKUzOv49RQPpBTLu9JWrCaVQafcbgK4ua5MueKElU3xB7bSBW7EEBqIS63ZwJ+22mQco27Hx9JoFSktY1WXoD2FUXiVH8oH5AAAAAElFTkSuQmCC"/>
+        </div>
+      </div>
+    </nav>
+    <div class="cart-sidebar" id="cartSidebar">
+      <h2 >Cart</h2>
+    <div class="cart-content">
+        <div class="cart-card">
+            <div class="cart-img" >
+                <img id="card-product-img" src="" >
+            </div>
+            <div class="cart-details">
+
+            </div>  
+        </div>           
+    </div>
+    <p><span id="cart-total"></span></p>
+    <button type="button" class="btn-primary" >Buy Now</button>
+</div>
+    <!--slider-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicator" id="about">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slider main.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/monis-yousafzai-s5-q5A5PanA-unsplash.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/Website_Banner-06_cleanup (2).jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!--slider end-->
+    <!--about us-->
+    <div class="about" >
+      <h1>𝓐𝓑𝓞𝓤𝓣 𝓤𝓢</h1>
+      <p>Connecting Skill with Opportunity</p>
+      <div class="para">
+        <p>
+          Is Certified Company Engaged In Manufacturing And exporting of
+          Decorative Handicrafts to global importers, wholesalers and retailers
+          Since 1972
+        </p>
+      </div>
+      <img src="logo.png" height="75" id="--collection"/>
+    </div>
+    <!--collection-->
+    <div class="container" id="collection">
+<div class="flower">
+    <img src="images/Rectangle 5.png" alt="">
+</div>
+<div class="heading">
+    <h1>Our Collection</h1>
+    <p>Check out our complete range of craft works</p>
+</div>
+<div class="parent">
+<div class="div1"><img src="images/Rectangle 6.png" onclick="window.location.href='products.html#div8'">JEWELLERY</div>
+<div class="div2"><img src="images/Rectangle 7.png" onclick="window.location.href='products.html#clothings'">PLANTERS</div>
+<div class="div3"><img src="images/Rectangle 8.png" onclick="window.location.href='products.html#shoes'"> BAGS</div>
+<div class="div4"><img src="images/Rectangle 12.png" onclick="window.location.href='products.html#home'">WALL DECOR</div>
+<div class="div5"><img src="images/Rectangle 9.png" onclick="window.location.href='products.html#jewelary'">CLOTHINGS</div>
+<div class="div6"><img src="images/Rectangle 10.png" onclick="window.location.href='products.html#plants'">SHOES</div>
+<div class="div7"><img src="images/Rectangle 11.png" onclick="window.location.href='products.html#bags'">HOME DECOR</div>
+<div class="div8"><img src="images/Rectangle 13.png" onclick="window.location.href='products.html#wall'">OTHER</div>
+</div>
+</div>
+<!--collection end-->
+<!--new arrivals-->
+<div class="arrivals">
+    <h1>New Arrivals</h1>
+ <div class="angry-grid">
+  <div id="item-0">
+    <img src="images/Rectangle 14.png">
+    <div class="share" id="share">
+      <i class='bx bx-heart'></i>
+      <i class='bx bx-bookmark'></i>
+    </div>
+  </div>
+  <div id="item-1">
+    <img src="images/Rectangle 15.png">
+    <div class="share" id="share">
+      <i class='bx bx-heart'></i>
+      <i class='bx bx-bookmark'></i>
+    </div>
+  </div>
+  <div id="item-2">
+    <img src="images/Rectangle 17.png">
+    <div class="share" id="share">
+      <i class='bx bx-heart'></i>
+      <i class='bx bx-bookmark'></i>
+    </div>
+  </div>
+  <div id="item-3">
+    <img src="images/Rectangle 18.png">
+    <div class="share" id="share">
+      <i class='bx bx-heart'></i>
+      <i class='bx bx-bookmark'></i>
+    </div>
+  </div>
+  <div id="item-4">
+    <img src="images/Rectangle 16.png">
+    <div class="share" id="share">
+      <i class='bx bx-heart'></i>
+      <i class='bx bx-bookmark'></i>
+    </div>
+  </div>
+</div> 
+<center><div class="view-arrival-b"><a href="products.html" class="view-arrival">VIEW ALL</a></div></center>
+</div>
+<!--new arrivals end-->
+<!--most loved categories-->
+<div class="most-loved">
+  <h1>Our Most Loved Categories</h1>
+  <div class="categories">
+  <div class="Categories-IMG"><img src="images/Rectangle 20.png"><h1>JEWELLERY</h1></div>
+  <div class="Categories-IMG" id="home-decor"><img src="images/Rectangle 21.png"><h1>HOME DECOR</h1></div>
+  <div class="Categories-IMG"><img src="images/Rectangle 22.png"><h1>APPAREL</h1></div>
+  <div class="Categories-IMG" id="home-decor"><img src="images/Rectangle 23.png"><h1>PLANTERS</h1></div>
+  </div>
+  <center><div class="view-arrival-b"><a href="products.html" class="view-arrival">VIEW ALL</a></div></center>
+</div>
+<!--most loved categories end-->
+<!--rev-->
+<div class="rev">
+  <div class="right-one">
+    <h1>Timeless Masterpieces Created by Pakistan's Highly Acclaimed Master Artisans</h1>
+    <div class="star-main">
+    <div class="star">
+      <img src="images/mappp.png">
+      <p>Curated from across the country</p>
+    </div>
+    <div class="star-1">
+      <img src="images/Craft Maestros Premium-02.png">
+      <p>Premium quality at affordable prices</p>
+    </div>
+    <div class="star-2">
+      <img src="images/Craft Maestros Authenticity-01.png">
+      <p>Guaranteed Authenticity</p>
+    </div>
+    <div class="star-3">
+      <img src="images/Craft Maestros Genaration-01.png">
+      <p>Each design a legacy for generations</p>
+    </div>
+  </div>
+</div>
+  <div class="left-one">
+    <div class="caard">
+      <img src="images/Carft_Maestros_-_Master_Artisan_8_-_Sneh_Gangal.png" width="100%" height="100%">
+    </div>
+    <div class="caard-2">
+      <img src="images/Carft_Maestros_-_Master_Artisan_9_-_Zahid_Beigh.png" width="100%" height="100%">
+    </div>
+    <div class="caard-3">
+      <img src="images/Carft_Maestros_-_Master_Artisan_7_-_Gajendra_Soni.png" width="100%" height="100%">
+    </div>
+  </div>
+</div>
+<!--newsletter-->
+<section id="newsletter"  class="section-p1 section-m1">
+    <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Sign Up</button>
+    </div>
+</section>
+<!--footer-->
+<footer>
+<div class="footer-main">
+  <div class="colo-1">
+    <h4>Contact</h4>
+    <p><strong>Phone:</strong> +923145867056</p>
+    <p><strong>Email:</strong> Info@handicraft.com</p>
+    <p><strong>Address:</strong> Karachi, Sindh</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+  </div>
+  <div class="colo-2">
+    <h4>About</h4>
+    <a href="index.html#about">About Us</a><br>
+    <a href="404.html">Delivery Information</a><br>
+    <a href="404.html">Private Policy</a><br>
+    <a href="404.html">Terms & Conditions</a><br>
+    <a href="contact.html">Contact Us</a>
+  </div>
+  <div class="colo-3">
+    <h4>My Account</h4>
+    <a href="login.html">Sign In</a><br>
+    <a href="404.html">View Cart</a><br>
+    <a href="404.html">My Wishlist</a><br>
+    <a href="404.html">Track My Order</a><br>
+    <a href="faq.html">Help</a>
+  </div>
+  <div class="colo-4">
+    <h4>install App</h4>
+<p>From App Store or Google Play</p>
+<div class="row">
+    <img src="images/pay/app.png" alt="">
+    <img src="images/pay/play.png" alt="">
+</div>
+<p>Secured Payment Gateways</p>
+<img src="images/pay/pay.png" alt="" width="50%">
+  </div>
+</div>
+<div class="footer-p"><p>Copyright © 2024 Ibrahim baloch. All rights reserved.</p></div>
+</footer>
+<script>
+// cart
+document.getElementById('cartIcon')
+.addEventListener('click', function () {
+    document.getElementById('cartSidebar').style.right = '0';
+});
+
+document.getElementById('cartSidebar')
+.addEventListener('mouseleave', function () {
+    document.getElementById('cartSidebar').style.right = '-300px';
+});
+</script>
+    <!--bootstrap cdn JavaScript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
