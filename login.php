@@ -43,9 +43,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['loggedin'] = true;
             $_SESSION['id'] = $row['id']; 
             $_SESSION['email'] = $email;
-
-
-            header("Location: index.html");
+            // Check user role
+            if ($row['role'] == 'admin') {
+                header("Location: admin.html");
+            } elseif ($row['role'] == 'user') {
+                header("Location: index.html");
+            } else {
+                echo "Invalid user role.";
+            }
         } else {
 
             echo "The password you entered was not valid.";
